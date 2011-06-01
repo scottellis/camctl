@@ -12,13 +12,13 @@ Run with -h to get usage help.
 	Usage: camctl [options]
 
 	Options:
-	-m<n>	Mirror (horizontal flip) n = 0 or 1
-	-f<n>	Flip (vertical flip) n = 0 or 1
-	-t	Test pattern (0 - 8)
-	-g	Green test pattern
-	-r	Red test pattern
-	-b	Blue test pattern
-	-w	Bar width for test pattern (odd)
+	-m<n>	Mirror (horizontal flip) (0 or 1)
+	-f<n>	Flip (vertical flip) (0 or 1)
+	-t<n>	Test pattern (0 - 8)
+	-g<n>	Green test pattern (0 - 4095)
+	-r<n>	Red test pattern (0 - 4095)
+	-b<n>	Blue test pattern (0 - 4095)
+	-w<n>	Bar width for test pattern (odd or zero, 0 - 4095)
 	-d	Dump current settings
 	-h	Print this message
 
