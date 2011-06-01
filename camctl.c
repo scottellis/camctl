@@ -105,8 +105,8 @@ static void usage(char **argv)
 {
 	printf("Usage: %s [options]\n\n"
 		"Options:\n"
-		"-m	Mirror (horizontal flip)\n"
-		"-f	Flip (vertical flip)\n"
+		"-m<n>	Mirror (horizontal flip) n = 0 or 1\n"
+		"-f<n>	Flip (vertical flip) n = 0 or 1\n"
 		"-t	Test pattern (0 - 8)\n"
 		"-g	Green test pattern\n"
 		"-r	Red test pattern\n"
