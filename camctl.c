@@ -105,13 +105,13 @@ static void usage(char **argv)
 {
 	printf("Usage: %s [options]\n\n"
 		"Options:\n"
-		"-m<n>	Mirror (horizontal flip) n = 0 or 1\n"
-		"-f<n>	Flip (vertical flip) n = 0 or 1\n"
-		"-t	Test pattern (0 - 8)\n"
-		"-g	Green test pattern\n"
-		"-r	Red test pattern\n"
-		"-b	Blue test pattern\n"
-		"-w	Bar width for test pattern (odd)\n"
+		"-m<n>	Mirror (horizontal flip) (0 or 1)\n"
+		"-f<n>	Flip (vertical flip) (0 or 1)\n"
+		"-t<n>	Test pattern (0 - 8)\n"
+		"-g<n>	Green test pattern (0 - 4095)\n"
+		"-r<n>	Red test pattern (0 - 4095)\n"
+		"-b<n>	Blue test pattern (0 - 4095)\n"
+		"-w<n>	Bar width for test pattern (odd or zero, 0-4095)\n"
 		"-d	Dump current settings\n"
 		"-h	Print this message\n",
 		argv[0]);
